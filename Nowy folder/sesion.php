@@ -10,5 +10,5 @@
     $_SESSION['time'] = time();
 
 
-    echo '<br/><a href="session2.php">Page 2</a>';
+    echo '<br/><a href="sesion2.php">Page 2</a>';
 ?>
