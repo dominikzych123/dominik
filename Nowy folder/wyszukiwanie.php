@@ -6,3 +6,4 @@ if(preg_match($wzorzec, $tekst))
 else
     echo "nie znaleziono cyfry";
 ?>
+                              
