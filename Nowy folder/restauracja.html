@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Restauracja wszystkie smaki</title>
+        <link rel="styleshee" href="styl1.css">
+
+    </head>
+    
+    
+    <body>
+        <div class="baner">
+            <h1>witamy w restauracji wszystkie smaki</h1>
+
+        </div>
+
+        <div class="lewy">
+            <img src="menu.jpg" alt="Nasze danie">
+
+        </div>
+
+        <div class="prawy">
+            <h4>u nas donrze zjesz</h4>
+            <ol>
+                <li>obiad od 40</li>
+                <li>przekonski od 10</li>
+                <li>kolacje od 20</li>
+            </ol>
+
+        </div>
+
+        <div class="dolny">
+            <h2>Zarezerwuj stolik on-line</h2>
+            <form action="rezerwacja.php" method="post">
+                <label for="data">data (format:rrrr-mm-dd)</label> <br>
+                <input type="date" name="data" id="data"><br>
+                <label for="osob">ile osob?</label> <br>
+                <input type="number" name="osob" id="osob"> <br>
+                <label for="telefon">twoj numer telefonu</label> <br>
+                <input type="test" name="telefon" id="telefon"> <br>
+                <input type="checkbox" name="zgoda" id="zgoda">
+                <label for="zgoda">zgadzam sie na przetwarzaniie danych osobowych</label> 
+                <br>
+                <input class="button" type="reset" id="wyczysc">
+                <input class="button" type="submit" id="Zarezerwuj">
+
+
+
+            
+            </form>
+
+        </div>
+
+        <div class="stopka">
+            <p>Stronę internetową opracował<span><i>Dominik Zych</i></span></p>
+
+        </div>
+
+
+    </body>
+</html>
